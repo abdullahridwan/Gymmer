@@ -8,14 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedDate: Date = Date()
+    @State private var isModalPresented: Bool = false
+    @State private var tasks: [Date] = [
+        Calendar.current.date(byAdding: .day, value: 1, to: Date())!,
+        Calendar.current.date(byAdding: .day, value: 3, to: Date())!,
+        Calendar.current.date(byAdding: .day, value: 5, to: Date())!,
+    ]
+    
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                CalendarView(isModal: $isModalPresented, selectedDate: $selectedDate)
+                Spacer()
+            }
+            .navigationTitle("Summary")
+            .navigationBarItems(trailing: Button(action: {
+                self.isModalPresented.toggle()
+            }) {
+                Image(systemName: "plus.circle")
+            })
         }
-        .padding()
+        .sheet(isPresented: $isModalPresented) {
+        }
     }
 }
 

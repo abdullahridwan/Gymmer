@@ -14,6 +14,7 @@
 		B5EB3E522B917058000A5EA2 /* GymmerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EB3E512B917058000A5EA2 /* GymmerTests.swift */; };
 		B5EB3E5C2B917058000A5EA2 /* GymmerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EB3E5B2B917058000A5EA2 /* GymmerUITests.swift */; };
 		B5EB3E5E2B917058000A5EA2 /* GymmerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EB3E5D2B917058000A5EA2 /* GymmerUITestsLaunchTests.swift */; };
+		B5EB3E6B2B9178E0000A5EA2 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EB3E6A2B9178E0000A5EA2 /* CalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		B5EB3E572B917058000A5EA2 /* GymmerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymmerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EB3E5B2B917058000A5EA2 /* GymmerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymmerUITests.swift; sourceTree = "<group>"; };
 		B5EB3E5D2B917058000A5EA2 /* GymmerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymmerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B5EB3E6A2B9178E0000A5EA2 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				B5EB3E432B917057000A5EA2 /* Assets.xcassets */,
 				B5EB3E452B917057000A5EA2 /* Gymmer.entitlements */,
 				B5EB3E462B917057000A5EA2 /* Preview Content */,
+				B5EB3E6A2B9178E0000A5EA2 /* CalendarView.swift */,
 			);
 			path = Gymmer;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				B5EB3E422B917055000A5EA2 /* ContentView.swift in Sources */,
 				B5EB3E402B917055000A5EA2 /* GymmerApp.swift in Sources */,
+				B5EB3E6B2B9178E0000A5EA2 /* CalendarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
