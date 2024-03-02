@@ -81,7 +81,7 @@ struct CalendarView: View {
                         ForEach(0..<self.columns, id: \.self) { column in
                             let index = row * self.columns + column
                             if index < self.daysInMonth.count {
-                                CalendarCell(date: self.daysInMonth[index], selectedDate: $selectedDate)
+                                CalendarCell(date: self.daysInMonth[index], selectedDate: $selectedDate, isModal: $isModal)
 //                                    .withAnimation(.easeInOut(duration: 0.2))
                             } else {
                                 Text("")
@@ -120,11 +120,12 @@ struct CalendarView: View {
 struct CalendarCell: View {
     let date: Date
     @Binding var selectedDate: Date
+    @Binding var isModal: Bool
     
     var body: some View {
         Button(action: {
             selectedDate = self.date
-            print(selectedDate)
+            isModal = true
         }, label: {
             Text(getDay(from: date))
                 .frame(width: 40, height: 40)

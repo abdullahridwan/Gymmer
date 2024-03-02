@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5ABCF942B92698600B08C0C /* GymnerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5ABCF922B92698500B08C0C /* GymnerModel.xcdatamodeld */; };
+		B5ABCF962B92707B00B08C0C /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ABCF952B92707B00B08C0C /* WorkoutModel.swift */; };
+		B5ABCF982B9270A700B08C0C /* DayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ABCF972B9270A700B08C0C /* DayModel.swift */; };
+		B5ABCFAA2B927B6B00B08C0C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ABCFA92B927B6B00B08C0C /* CoreDataManager.swift */; };
+		B5ABCFAC2B927C3900B08C0C /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ABCFAB2B927C3900B08C0C /* WorkoutViewModel.swift */; };
+		B5ABCFAE2B92BE1100B08C0C /* DayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ABCFAD2B92BE1100B08C0C /* DayViewModel.swift */; };
 		B5EB3E402B917055000A5EA2 /* GymmerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EB3E3F2B917055000A5EA2 /* GymmerApp.swift */; };
 		B5EB3E422B917055000A5EA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EB3E412B917055000A5EA2 /* ContentView.swift */; };
 		B5EB3E442B917057000A5EA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EB3E432B917057000A5EA2 /* Assets.xcassets */; };
@@ -15,6 +21,10 @@
 		B5EB3E5C2B917058000A5EA2 /* GymmerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EB3E5B2B917058000A5EA2 /* GymmerUITests.swift */; };
 		B5EB3E5E2B917058000A5EA2 /* GymmerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EB3E5D2B917058000A5EA2 /* GymmerUITestsLaunchTests.swift */; };
 		B5EB3E6B2B9178E0000A5EA2 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EB3E6A2B9178E0000A5EA2 /* CalendarView.swift */; };
+		B5EB3E6D2B923AB9000A5EA2 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EB3E6C2B923AB9000A5EA2 /* DayView.swift */; };
+		B5EB3E6F2B924499000A5EA2 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EB3E6E2B924499000A5EA2 /* WorkoutView.swift */; };
+		B5EB3E722B924E10000A5EA2 /* ElegantEmojiPicker in Frameworks */ = {isa = PBXBuildFile; productRef = B5EB3E712B924E10000A5EA2 /* ElegantEmojiPicker */; };
+		B5EB3E752B924EC7000A5EA2 /* MCEmojiPicker in Frameworks */ = {isa = PBXBuildFile; productRef = B5EB3E742B924EC7000A5EA2 /* MCEmojiPicker */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5ABCF932B92698600B08C0C /* GymnerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GymnerModel.xcdatamodel; sourceTree = "<group>"; };
+		B5ABCF952B92707B00B08C0C /* WorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
+		B5ABCF972B9270A700B08C0C /* DayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayModel.swift; sourceTree = "<group>"; };
+		B5ABCFA92B927B6B00B08C0C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		B5ABCFAB2B927C3900B08C0C /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
+		B5ABCFAD2B92BE1100B08C0C /* DayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewModel.swift; sourceTree = "<group>"; };
 		B5EB3E3C2B917055000A5EA2 /* Gymmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gymmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EB3E3F2B917055000A5EA2 /* GymmerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymmerApp.swift; sourceTree = "<group>"; };
 		B5EB3E412B917055000A5EA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +63,8 @@
 		B5EB3E5B2B917058000A5EA2 /* GymmerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymmerUITests.swift; sourceTree = "<group>"; };
 		B5EB3E5D2B917058000A5EA2 /* GymmerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymmerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B5EB3E6A2B9178E0000A5EA2 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		B5EB3E6C2B923AB9000A5EA2 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		B5EB3E6E2B924499000A5EA2 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5EB3E722B924E10000A5EA2 /* ElegantEmojiPicker in Frameworks */,
+				B5EB3E752B924EC7000A5EA2 /* MCEmojiPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +97,9 @@
 		B5EB3E332B917055000A5EA2 = {
 			isa = PBXGroup;
 			children = (
+				B5ABCF972B9270A700B08C0C /* DayModel.swift */,
+				B5ABCF952B92707B00B08C0C /* WorkoutModel.swift */,
+				B5ABCF922B92698500B08C0C /* GymnerModel.xcdatamodeld */,
 				B5EB3E3E2B917055000A5EA2 /* Gymmer */,
 				B5EB3E502B917058000A5EA2 /* GymmerTests */,
 				B5EB3E5A2B917058000A5EA2 /* GymmerUITests */,
@@ -103,6 +126,11 @@
 				B5EB3E452B917057000A5EA2 /* Gymmer.entitlements */,
 				B5EB3E462B917057000A5EA2 /* Preview Content */,
 				B5EB3E6A2B9178E0000A5EA2 /* CalendarView.swift */,
+				B5EB3E6C2B923AB9000A5EA2 /* DayView.swift */,
+				B5EB3E6E2B924499000A5EA2 /* WorkoutView.swift */,
+				B5ABCFA92B927B6B00B08C0C /* CoreDataManager.swift */,
+				B5ABCFAB2B927C3900B08C0C /* WorkoutViewModel.swift */,
+				B5ABCFAD2B92BE1100B08C0C /* DayViewModel.swift */,
 			);
 			path = Gymmer;
 			sourceTree = "<group>";
@@ -148,6 +176,10 @@
 			dependencies = (
 			);
 			name = Gymmer;
+			packageProductDependencies = (
+				B5EB3E712B924E10000A5EA2 /* ElegantEmojiPicker */,
+				B5EB3E742B924EC7000A5EA2 /* MCEmojiPicker */,
+			);
 			productName = Gymmer;
 			productReference = B5EB3E3C2B917055000A5EA2 /* Gymmer.app */;
 			productType = "com.apple.product-type.application";
@@ -220,6 +252,10 @@
 				Base,
 			);
 			mainGroup = B5EB3E332B917055000A5EA2;
+			packageReferences = (
+				B5EB3E702B924E10000A5EA2 /* XCRemoteSwiftPackageReference "Elegant-Emoji-Picker" */,
+				B5EB3E732B924EC7000A5EA2 /* XCRemoteSwiftPackageReference "MCEmojiPicker" */,
+			);
 			productRefGroup = B5EB3E3D2B917055000A5EA2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -262,7 +298,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5ABCFAE2B92BE1100B08C0C /* DayViewModel.swift in Sources */,
+				B5ABCF982B9270A700B08C0C /* DayModel.swift in Sources */,
+				B5EB3E6F2B924499000A5EA2 /* WorkoutView.swift in Sources */,
 				B5EB3E422B917055000A5EA2 /* ContentView.swift in Sources */,
+				B5EB3E6D2B923AB9000A5EA2 /* DayView.swift in Sources */,
+				B5ABCFAC2B927C3900B08C0C /* WorkoutViewModel.swift in Sources */,
+				B5ABCF962B92707B00B08C0C /* WorkoutModel.swift in Sources */,
+				B5ABCF942B92698600B08C0C /* GymnerModel.xcdatamodeld in Sources */,
+				B5ABCFAA2B927B6B00B08C0C /* CoreDataManager.swift in Sources */,
 				B5EB3E402B917055000A5EA2 /* GymmerApp.swift in Sources */,
 				B5EB3E6B2B9178E0000A5EA2 /* CalendarView.swift in Sources */,
 			);
@@ -616,6 +660,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B5EB3E702B924E10000A5EA2 /* XCRemoteSwiftPackageReference "Elegant-Emoji-Picker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Finalet/Elegant-Emoji-Picker";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		B5EB3E732B924EC7000A5EA2 /* XCRemoteSwiftPackageReference "MCEmojiPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/izyumkin/MCEmojiPicker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5EB3E712B924E10000A5EA2 /* ElegantEmojiPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5EB3E702B924E10000A5EA2 /* XCRemoteSwiftPackageReference "Elegant-Emoji-Picker" */;
+			productName = ElegantEmojiPicker;
+		};
+		B5EB3E742B924EC7000A5EA2 /* MCEmojiPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5EB3E732B924EC7000A5EA2 /* XCRemoteSwiftPackageReference "MCEmojiPicker" */;
+			productName = MCEmojiPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		B5ABCF922B92698500B08C0C /* GymnerModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B5ABCF932B92698600B08C0C /* GymnerModel.xcdatamodel */,
+			);
+			currentVersion = B5ABCF932B92698600B08C0C /* GymnerModel.xcdatamodel */;
+			path = GymnerModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B5EB3E342B917055000A5EA2 /* Project object */;
 }
